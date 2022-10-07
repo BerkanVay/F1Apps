@@ -66,8 +66,8 @@
 		C3113412280EB32D0054E9DD /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				C3113413280EB3340054E9DD /* Table View Cells */,
 				DAA84222280EA11A002763B3 /* MainTableViewController.swift */,
+				C3113413280EB3340054E9DD /* Table View Cells */,
 			);
 			path = Main;
 			sourceTree = "<group>";
