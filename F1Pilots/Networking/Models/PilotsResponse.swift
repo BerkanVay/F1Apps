@@ -8,15 +8,15 @@
 import Foundation
 
 struct PilotsResponse: Decodable {
-    let items: [Pilot]
+  let items: [Pilot]
+  
+  struct Pilot: Decodable {
+    let id: Int
+    let name: String
+    let point: Int
     
-    struct Pilot: Decodable {
-        let id: Int
-        let name: String
-        let point: Int
-        
-        var pointFormatted: String {
-            point == 1 ? "\(point) point" : "\(point) points"
-        }
+    var pointFormatted: String {
+      point == 1 ? "\(point) point" : "\(point) points"
     }
+  }
 }
